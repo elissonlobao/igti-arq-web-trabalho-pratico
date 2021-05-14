@@ -18,6 +18,6 @@ O Diagrama de contexto do sistema tem por finalidade demonstrar como estará dis
 
 ## 02 - Diagrama de contêiner
 
-## 03 - Diagrama de componentes
+## Diagrama de componentes
 
 ## 04 - Código
