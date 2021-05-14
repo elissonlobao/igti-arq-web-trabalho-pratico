@@ -1,0 +1,16 @@
+@startuml C4_Elements
+!include shared/C4/C4_Container.puml
+
+title Diagrama de contexto
+
+Person(persona, "Usuário")
+Container(container, "CrDigital", "Portal WEB e App", "Optional Description")
+System(servidorEmail, "Serviço de e-mail", "Servidor POP3")
+System(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+
+Rel(persona, container, "Usa", "HTTPS")
+Rel(container, servidorEmail, "Solicita envio de e-mail", "SMTP")
+Rel(container, servidorPaypal, "Usa", "Rest")
+Rel(servidorEmail, persona, "Envia e-mail")
+
+@enduml

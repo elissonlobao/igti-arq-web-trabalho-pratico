@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="491px" preserveAspectRatio="none" style="width:396px;height:491px;" version="1.1" viewBox="0 0 396 491" width="396px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="197" x="90.75" y="16.708">Diagrama de contexto</text><!--MD5=[3b27d2e3c7a58dbd59545723caa97324]
+entity persona--><rect fill="#08427B" height="52.5938" style="stroke: #073B6F; stroke-width: 1.5;" width="86" x="189.5" y="27.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="204" y="49.0918">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="66" x="199.5" y="66.7734">Usuário</text><!--MD5=[c1e3f05984ba1120c8c0eb08c3b56370]
+entity container--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="160" x="70.5" y="171.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="113.5" y="193.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="113.5" y="210.7734">CrDigital</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="118" x="91.5" y="225.6855">[Portal WEB e App]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="152.5" y="241.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="80.5" y="257.8076">Optional Description</text><!--MD5=[3fac3c397146e2310b38f89d877bcd19]
+entity servidorEmail--><rect fill="#1168BD" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="171" x="200" y="386.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="257" y="407.5918">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="210" y="425.2734">Serviço de e-mail</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="287.5" y="442.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="236.5" y="458.3389">Servidor POP3</text><!--MD5=[5e497a8cf9e3bbea01b47ccf65841b21]
+entity servidorPaypal--><rect fill="#1168BD" height="103.8125" style="stroke: #3C7FC0; stroke-width: 1.5;" width="129" x="7" y="376.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="43" y="398.0918">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="22" y="415.7734">Serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="17" y="434.3984">pagamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="73.5" y="451.167"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="19.5" y="467.4639">Servidor PayPal</text><!--MD5=[57e2eed02ef0a4cecffa0e8883c400dc]
+link persona to container--><path d="M219.3253,81.2845 C207.9803,104.3896 191.2534,138.4552 177.1307,167.2175 " fill="none" id="persona-to-container" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="174.8876,171.7856,182.445,165.4701,177.0914,167.2975,175.264,161.944,174.8876,171.7856" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="215" y="124.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="204.5" y="138.2246">[HTTPS]</text><!--MD5=[6ed38c627acdd2b7871a6733310040d6]
+link container to servidorEmail--><path d="M137.8649,271.1375 C134.418,295.4672 134.6196,324.3168 147.5,346.9531 C158.5838,366.4319 176.3217,381.7646 195.4396,393.6338 " fill="none" id="container-to-servidorEmail" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="199.7986,396.2677,194.1643,388.1897,195.5192,393.6819,190.027,395.0367,199.7986,396.2677" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="148.5" y="314.02">Solicita envio de e-</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="203" y="329.1528">mail</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="197.5" y="343.3574">[SMTP]</text><!--MD5=[35940c2bcec77eecadc2a04fd4c1192e]
+link container to servidorPaypal--><path d="M87.6606,271.0923 C79.8743,280.1497 73.0604,290.1798 68.5,300.9531 C59.2358,322.8382 58.2329,348.7689 60.2068,371.5488 " fill="none" id="container-to-servidorPaypal" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="60.7035,376.6602,63.8143,367.3156,60.2199,371.6837,55.8518,368.0893,60.7035,376.6602" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="74.5" y="321.52">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37" x="69.5" y="335.7246">[Rest]</text><!--MD5=[4d15b16681f4662d256a3c9be0a11bd1]
+link servidorEmail to persona--><path d="M290.4396,386.4511 C291.6997,373.7634 292.8743,359.8112 293.5,346.9531 C298.645,241.2295 294.85,211.4107 261.5,110.9531 C258.7095,102.5475 254.8149,93.854 250.7838,85.8809 " fill="none" id="servidorEmail-to-persona" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="248.265,81.0186,248.8531,90.8499,250.5649,85.4583,255.9565,87.1701,248.265,81.0186" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="295.5" y="226.02">Envia e-mail</text><!--MD5=[77ff254ae28a5b78e0af2fb6772c558f]
+@startuml C4_Elements
+!include shared/C4/C4_Container.puml
+
+title Diagrama de contexto
+
+Person(persona, "Usuário")
+Container(container, "CrDigital", "Portal WEB e App", "Optional Description")
+System(servidorEmail, "Serviço de e-mail", "Servidor POP3")
+System(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+
+Rel(persona, container, "Usa", "HTTPS")
+Rel(container, servidorEmail, "Solicita envio de e-mail", "SMTP")
+Rel(container, servidorPaypal, "Usa", "Rest")
+Rel(servidorEmail, persona, "Envia e-mail")
+
+@enduml
+
+@startuml C4_Elements
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+title Diagrama de contexto
+
+rectangle "==Usuário" <<person>> as persona
+rectangle "==CrDigital\n//<size:12>[Portal WEB e App]</size>//\n\n Optional Description" <<container>> as container
+rectangle "==Serviço de e-mail\n\n Servidor POP3" <<system>> as servidorEmail
+rectangle "==Serviço de pagamentos\n\n Servidor PayPal" <<system>> as servidorPaypal
+
+persona - -> container : "===Usa\n//<size:12>[HTTPS]</size>//"
+container - -> servidorEmail : "===Solicita envio de e-mail\n//<size:12>[SMTP]</size>//"
+container - -> servidorPaypal : "===Usa\n//<size:12>[Rest]</size>//"
+servidorEmail - -> persona : "===Envia e-mail"
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>
