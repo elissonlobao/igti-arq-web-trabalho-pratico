@@ -13,6 +13,7 @@ Níveis de abstração:
 
 
 ## 01 - Diagrama de contexto
+![Diagrama de contexto](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/01-diagrama-contexto/01-diagrama_contexto.svg "Diagrama de contexto")
 
 ## 02 - Diagrama de contêiner
 
