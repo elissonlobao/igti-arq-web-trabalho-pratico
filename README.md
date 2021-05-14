@@ -6,11 +6,10 @@ A arquitetura do sistema foi documentada utilizando o modelo C4 de arquitetura p
 
 # visão arquitetural
 Níveis de abstração:
-* [01 - Diagrama de contexto](#01-Diagrama-de-contexto)
-* [02 - Diagrama de contêiner](#02-Diagrama-de-contêiner)
-* [03 - Diagrama de componentes](#03-Diagrama-de-componentes)
-* [04 - Código](#04-Código)
-
+* [01 - Diagrama de contexto](#diagrama-de-contexto)
+* [02 - Diagrama de contêiner](#diagrama-de-contêiner)
+* [03 - Diagrama de componentes](#diagrama-de-componentes)
+* [04 - Código](#código)
 
 ## 01 - Diagrama de contexto
 O Diagrama de contexto do sistema tem por finalidade demonstrar como estará distribuídos as conexões com o meio exterior (Usuários, Serviços e Integrações), e como ele interage com esse meio. A visão desta abstração está representada pelo diagrama abaixo:
