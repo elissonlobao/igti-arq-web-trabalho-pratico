@@ -13,6 +13,8 @@ Níveis de abstração:
 
 
 ## 01 - Diagrama de contexto
+O Diagrama de contexto do sistema tem por finalidade demonstrar como estará distribuídos as conexões com o meio exterior (Usuários, Serviços e Integrações), e como ele interage com esse meio. A visão desta abstração está representada pelo diagrama abaixo:
+
 ![Diagrama de contexto](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/01-diagrama-contexto/01-diagrama_contexto.svg "Diagrama de contexto")
 
 ## 02 - Diagrama de contêiner
