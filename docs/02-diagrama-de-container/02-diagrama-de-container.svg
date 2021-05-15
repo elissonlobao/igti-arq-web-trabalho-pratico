@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1088px" preserveAspectRatio="none" style="width:795px;height:1088px;" version="1.1" viewBox="0 0 795 1088" width="795px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="202" x="287.5" y="16.708">Diagrama de container</text><!--MD5=[84dda40acb3410cad7262261daba2aaf]
+cluster c1--><rect fill="#FFFFFF" height="766" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="573" x="7" y="311.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="251.5" y="326.9482">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="256.5" y="345.1016">CrDigital</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="262.5" y="360.0137">[System]</text><!--MD5=[3ed06e009b2366fea5722fd63e290e71]
+entity aplicacao--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="184" x="15" y="378.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="70" y="400.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="43" y="417.7734">Aplicação WEB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="118" x="48" y="432.6855">[Angular com Java]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="109" y="448.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="25" y="464.8076">Front-end - Área restrita</text><!--MD5=[8056a0d881e6390e4d8c8be817d8afbd]
+entity pagina--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="169" x="234.5" y="370.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="282" y="392.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="257.5" y="409.7734">Aplicação SPA</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="58" x="290" y="424.6855">[Angular]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="321" y="440.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="244.5" y="456.8076">Portal single-page da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="279" y="473.1045">cooperativa</text><!--MD5=[7a930ef5b34af5dbf4a883a2ce699f46]
+entity appMobile--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="133" x="438.5" y="378.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="468" y="400.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="456.5" y="417.7734">App Mobile</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="87" x="461.5" y="432.6855">[C#, Xamarin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="507" y="448.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="448.5" y="464.8076">Aplicativo Mobile</text><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="165" x="395.5" y="638.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="441" y="660.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="405.5" y="677.7734">API da Aplicação</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="450" y="692.6855">[Java EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="480" y="708.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="445" y="724.8076">Back-end</text><!--MD5=[7aa9c583cf047545838c264d3047b712]
+entity db1--><path d="M396,1003.9531 C396,993.9531 472,993.9531 472,993.9531 C472,993.9531 548,993.9531 548,1003.9531 L548,1059.5156 C548,1069.5156 472,1069.5156 472,1069.5156 C472,1069.5156 396,1069.5156 396,1059.5156 L396,1003.9531 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M396,1003.9531 C396,1013.9531 472,1013.9531 472,1013.9531 C472,1013.9531 548,1013.9531 548,1003.9531 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="435" y="1029.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="132" x="406" y="1046.7734">Base de Dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="447.5" y="1061.6855">[Oracle]</text><!--MD5=[3b27d2e3c7a58dbd59545723caa97324]
+entity persona--><rect fill="#08427B" height="52.5938" style="stroke: #073B6F; stroke-width: 1.5;" width="86" x="354" y="189.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="368.5" y="211.0918">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="66" x="364" y="228.7734">Usuário</text><!--MD5=[3fac3c397146e2310b38f89d877bcd19]
+entity servidorEmail--><rect fill="#1168BD" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="171" x="395.5" y="27.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="452.5" y="49.0918">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="405.5" y="66.7734">Serviço de e-mail</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="483" y="83.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="432" y="99.8389">Servidor POP3</text><!--MD5=[5e497a8cf9e3bbea01b47ccf65841b21]
+entity servidorPaypal--><rect fill="#1168BD" height="103.8125" style="stroke: #3C7FC0; stroke-width: 1.5;" width="129" x="597.5" y="828.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="633.5" y="850.0918">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="612.5" y="867.7734">Serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="607.5" y="886.3984">pagamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="664" y="903.167"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="610" y="919.4639">Servidor PayPal</text><!--MD5=[d30c5285fa433d827e5eee3daabf01a2]
+link persona to aplicacao--><path d="M353.9423,234.4645 C315.9424,251.4504 260.0573,279.1568 217,311.9531 C193.1472,330.1215 169.8793,353.6444 150.9326,374.7914 " fill="none" id="persona-to-aplicacao" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="147.446,378.7106,156.4166,374.6451,150.7694,374.975,150.4396,369.3277,147.446,378.7106" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="285.5" y="286.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="275" y="300.2246">[HTTPS]</text><!--MD5=[2f1527321303741c719df35346dccbd2]
+link persona to pagina--><path d="M383.3721,243.1525 C378.8513,252.4669 373.9652,263.0644 370,272.9531 C357.905,303.1163 346.4368,337.3687 337.4499,366.0346 " fill="none" id="persona-to-pagina" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="335.9154,370.9517,342.415,363.552,337.405,366.1788,334.7782,361.1687,335.9154,370.9517" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="375.5" y="286.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="371" y="300.2246">[http]</text><!--MD5=[77e2af3f7f151b48f0985ce5fb91040d]
+link persona to appMobile--><path d="M410.6783,243.303 C427.3816,276.091 456.0432,332.3527 477.3989,374.2732 " fill="none" id="persona-to-appMobile" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="479.7033,378.7966,479.1819,368.9616,477.4336,374.3415,472.0537,372.5931,479.7033,378.7966" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="442" y="293.02">Usa</text><!--MD5=[07aa0074c95e1bd1165fb9d37af091e7]
+link api to servidorEmail--><path d="M560.9609,659.451 C601.6381,639.4187 642,608.0527 642,562.4531 C642,216.4531 642,216.4531 642,216.4531 C642,172.036 607.9585,137.5971 571.1817,113.3514 " fill="none" id="api-to-servidorEmail" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="566.6853,110.4451,572.0723,118.6901,570.8844,113.1594,576.4152,111.9715,566.6853,110.4451" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="643" y="418.52">Solicita envio de e-</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="697.5" y="433.6528">mail</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="692" y="447.8574">[SMTP]</text><!--MD5=[10a71e633bc81b5aa907024ad1dce22c]
+link api to servidorPaypal--><path d="M525.3846,738.0266 C550.8608,764.6798 582.3596,797.6337 608.689,825.1794 " fill="none" id="api-to-servidorPaypal" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="612.2032,828.8559,608.8762,819.586,608.7484,825.2414,603.093,825.1137,612.2032,828.8559" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="587" y="781.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37" x="582" y="795.2246">[Rest]</text><!--MD5=[4d15b16681f4662d256a3c9be0a11bd1]
+link servidorEmail to persona--><path d="M456.4779,113.0748 C443.1863,136.1769 427.0523,164.2193 414.9433,185.2659 " fill="none" id="servidorEmail-to-persona" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="412.4229,189.6466,420.3784,183.8406,414.9165,185.3128,413.4442,179.8509,412.4229,189.6466" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="440" y="156.02">Envia e-mail</text><!--MD5=[7dd33bf635097488a5a69262f3110a76]
+link pagina to api--><path d="M344.9117,486.2383 C358.3741,514.5531 375.7953,548.7533 394,577.9531 C405.8705,596.9931 420.218,616.8004 433.6705,634.2983 " fill="none" id="pagina-to-api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="437.0693,638.6952,434.73,629.1282,434.0115,634.7393,428.4004,634.0208,437.0693,638.6952" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="403" y="560.02">Requisita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="395" y="574.2246">[JSON, HTTPS]</text><!--MD5=[9f9f5fa3bd82e45f3be21a469e32f652]
+link aplicacao to api--><path d="M159.2251,478.141 C192.6692,508.7153 237.7614,547.7009 281,577.9531 C315.4402,602.0494 355.5763,625.3393 390.6008,644.2736 " fill="none" id="aplicacao-to-api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="395.2865,646.7973,389.2595,639.0079,390.8844,644.4263,385.4659,646.0512,395.2865,646.7973" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="290" y="560.02">Requisita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="282" y="574.2246">[JSON, HTTPS]</text><!--MD5=[90a4942a7b44d3ede28b7a5d08b22479]
+link appMobile to api--><path d="M499.858,477.9691 C495.2466,522.3743 488.4904,587.4345 483.7122,633.4466 " fill="none" id="appMobile-to-api" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="483.1688,638.6793,488.0772,630.1407,483.6854,633.7061,480.12,629.3142,483.1688,638.6793" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="501" y="560.02">Requisita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="493" y="574.2246">[JSON, HTTPS]</text><!--MD5=[e103e8664999dd9756eff2c32e1de5b6]
+link api to db1--><path d="M477.134,738.0341 C475.9581,805.3494 473.8756,924.5774 472.7583,988.5377 " fill="none" id="api-to-db1" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="472.6665,993.7985,476.8233,984.8698,472.7539,988.7993,468.8245,984.73,472.6665,993.7985" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="476" y="878.52">Transaciona</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="482.5" y="892.7246">[sync, JDBC]</text><!--MD5=[87d9d0d25700b42eb3e30ff7fc0e2ecd]
+@startuml C4_Elements
+!include shared/C4/C4_Container.puml
+
+title Diagrama de container
+
+Person(persona, "Usuário")
+
+!define ContainerDb(e_alias, e_label, e_techn) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<container>> as e_alias
+!define ContainerDb(e_alias, e_label, e_techn, e_descr) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<container>> as e_alias
+
+System_Boundary(c1, "CrDigital"){
+    Container(aplicacao, "Aplicação WEB", "Angular com Java", "Front-end - Área restrita")
+    Container(pagina, "Aplicação SPA", "Angular", "Portal single-page da cooperativa")
+    Container(appMobile, "App Mobile", "C#, Xamarin", "Aplicativo Mobile")
+    Container(api, "API da Aplicação", "Java EE", "Back-end")
+    ContainerDb(db1,"Base de Dados", "Oracle")
+}
+
+System(servidorEmail, "Serviço de e-mail", "Servidor POP3")
+System(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+
+Rel(persona, aplicacao, "Usa", "HTTPS")
+Rel(persona, pagina, "Usa", "http")
+Rel(persona, appMobile, "Usa")
+
+Rel(api, servidorEmail, "Solicita envio de e-mail", "SMTP")
+Rel(api, servidorPaypal, "Usa", "Rest")
+Rel(servidorEmail, persona, "Envia e-mail")
+
+Rel(pagina, api, "Requisita", "JSON, HTTPS")
+Rel(aplicacao, api, "Requisita", "JSON, HTTPS")
+Rel(appMobile, api, "Requisita", "JSON, HTTPS")
+Rel(api, db1, "Transaciona", "sync, JDBC")
+
+@enduml
+
+@startuml C4_Elements
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+title Diagrama de container
+
+rectangle "==Usuário" <<person>> as persona
+
+
+rectangle "==CrDigital\n<size:12>[System]</size>" <<boundary>> as c1{
+    rectangle "==Aplicação WEB\n//<size:12>[Angular com Java]</size>//\n\n Front-end - Área restrita" <<container>> as aplicacao
+    rectangle "==Aplicação SPA\n//<size:12>[Angular]</size>//\n\n Portal single-page da cooperativa" <<container>> as pagina
+    rectangle "==App Mobile\n//<size:12>[C#, Xamarin]</size>//\n\n Aplicativo Mobile" <<container>> as appMobile
+    rectangle "==API da Aplicação\n//<size:12>[Java EE]</size>//\n\n Back-end" <<container>> as api
+    database "==Base de Dados\n//<size:12>[Oracle]</size>//" <<container>> as db1
+}
+
+rectangle "==Serviço de e-mail\n\n Servidor POP3" <<system>> as servidorEmail
+rectangle "==Serviço de pagamentos\n\n Servidor PayPal" <<system>> as servidorPaypal
+
+persona - -> aplicacao : "===Usa\n//<size:12>[HTTPS]</size>//"
+persona - -> pagina : "===Usa\n//<size:12>[http]</size>//"
+persona - -> appMobile : "===Usa"
+
+api - -> servidorEmail : "===Solicita envio de e-mail\n//<size:12>[SMTP]</size>//"
+api - -> servidorPaypal : "===Usa\n//<size:12>[Rest]</size>//"
+servidorEmail - -> persona : "===Envia e-mail"
+
+pagina - -> api : "===Requisita\n//<size:12>[JSON, HTTPS]</size>//"
+aplicacao - -> api : "===Requisita\n//<size:12>[JSON, HTTPS]</size>//"
+appMobile - -> api : "===Requisita\n//<size:12>[JSON, HTTPS]</size>//"
+api - -> db1 : "===Transaciona\n//<size:12>[sync, JDBC]</size>//"
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

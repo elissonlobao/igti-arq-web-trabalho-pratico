@@ -1,0 +1,35 @@
+@startuml C4_Elements
+!include shared/C4/C4_Container.puml
+
+title Diagrama de container
+
+Person(persona, "Usuário")
+
+!define ContainerDb(e_alias, e_label, e_techn) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<container>> as e_alias
+!define ContainerDb(e_alias, e_label, e_techn, e_descr) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<container>> as e_alias
+
+System_Boundary(c1, "CrDigital"){
+    Container(aplicacao, "Aplicação WEB", "Angular com Java", "Front-end - Área restrita")
+    Container(pagina, "Aplicação SPA", "Angular", "Portal single-page da cooperativa")
+    Container(appMobile, "App Mobile", "C#, Xamarin", "Aplicativo Mobile")
+    Container(api, "API da Aplicação", "Java EE", "Back-end")
+    ContainerDb(db1,"Base de Dados", "Oracle")
+}
+
+System(servidorEmail, "Serviço de e-mail", "Servidor POP3")
+System(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+
+Rel(persona, aplicacao, "Usa", "HTTPS")
+Rel(persona, pagina, "Usa", "http")
+Rel(persona, appMobile, "Usa")
+
+Rel(api, servidorEmail, "Solicita envio de e-mail", "SMTP")
+Rel(api, servidorPaypal, "Usa", "Rest")
+Rel(servidorEmail, persona, "Envia e-mail")
+
+Rel(pagina, api, "Requisita", "JSON, HTTPS")
+Rel(aplicacao, api, "Requisita", "JSON, HTTPS")
+Rel(appMobile, api, "Requisita", "JSON, HTTPS")
+Rel(api, db1, "Transaciona", "sync, JDBC")
+
+@enduml
