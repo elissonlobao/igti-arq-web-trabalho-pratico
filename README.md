@@ -12,21 +12,21 @@ Níveis de abstração:
 * [03 - Diagrama de componentes](#diagrama-de-componentes)
 * [04 - Código](#código)
 
-## 01 - Diagrama de contexto
+## Diagrama de contexto
 O Diagrama de contexto do sistema tem por finalidade demonstrar como estará distribuídos as conexões com o meio exterior (Usuários, Serviços e Integrações), e como ele interage com esse meio. A visão desta abstração está representada pelo diagrama abaixo:
 
 ![Diagrama de contexto](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/01-diagrama-contexto/01-diagrama_contexto.svg "Diagrama de contexto")
 
-## 02 - Diagrama de container
+## Diagrama de container
 O diagrama de container surge a partir de uma ampliação do container do sistema de software no diagrama de  contexto e exibe por uma visão de hosts o que compõem esse sistema de software com um detalhamento das tecnologias eletivas que fundamentam a arquitetura proposta, sendo detalhada abaixo: 
 
 ![Diagrama de contexto](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/02-diagrama-de-container/02-diagrama-de-container.svg "Diagrama de container")
 
 O diagrama é composto de cinco containers: uma aplicação de página única do lado do cliente, uma aplicação móvel, uma aplicação Web Front-end, uma aplicação em API Back-end e um banco de dados.
 
-## 03 - Diagrama de componentes
+## Diagrama de componentes
 Integração 
 Releases de baixo risco
 
-## 04 - Código
+## Código
 , bem como de, manutenção e tecnologias envolvidas
