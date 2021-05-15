@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="199px" preserveAspectRatio="none" style="width:454px;height:199px;" version="1.1" viewBox="0 0 454 199" width="454px" zoomAndPan="magnify"><defs><filter height="300%" id="f1bw57qtvhqoge" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="87" x="174.75" y="16.708">Front-end</text><!--MD5=[8e3a01b345e3bd910dd2b52f195b6b30]
+entity Aplicação WEB--><rect fill="#FEFECE" filter="url(#f1bw57qtvhqoge)" height="46.2969" style="stroke: #A80036; stroke-width: 1.5;" width="141" x="7" y="27.9531"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 1.5;" width="15" x="128" y="32.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="126" y="34.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="126" y="38.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="22" y="60.9482">Aplicação WEB</text><!--MD5=[4bea0e80fc318cc1b960dae4f2f66ff2]
+entity iOs App--><rect fill="#FEFECE" filter="url(#f1bw57qtvhqoge)" height="46.2969" style="stroke: #A80036; stroke-width: 1.5;" width="93" x="183" y="27.9531"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 1.5;" width="15" x="256" y="32.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="254" y="34.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="254" y="38.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="198" y="60.9482">iOs App</text><!--MD5=[4bcb8ed1d0927ef1105f5da27c15772f]
+entity Android App--><rect fill="#FEFECE" filter="url(#f1bw57qtvhqoge)" height="46.2969" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="311.5" y="27.9531"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 1.5;" width="15" x="415.5" y="32.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="413.5" y="34.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="413.5" y="38.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="326.5" y="60.9482">Android App</text><!--MD5=[cbb8739ea188949496da5cf57df98c74]
+entity API Gateway--><rect fill="#FEFECE" filter="url(#f1bw57qtvhqoge)" height="46.2969" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="239.5" y="133.9531"/><rect fill="#FEFECE" height="10" style="stroke: #A80036; stroke-width: 1.5;" width="15" x="343.5" y="138.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="341.5" y="140.9531"/><rect fill="#FEFECE" height="2" style="stroke: #A80036; stroke-width: 1.5;" width="4" x="341.5" y="144.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="254.5" y="166.9482">API Gateway</text><!--MD5=[a94529dcc85c2428b1041eca050b02f7]
+link iOs App to API Gateway--><path d="M245.1229,73.9535 C256.18,90.232 271.061,112.1402 282.758,129.3607 " fill="none" id="iOs App-to-API Gateway" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="285.6589,133.6315,283.9109,123.939,282.8495,129.4954,277.2931,128.4341,285.6589,133.6315" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dab5b7705cca92092e135f282e57e4fa]
+link Android App to API Gateway--><path d="M357.8771,73.9535 C346.82,90.232 331.939,112.1402 320.242,129.3607 " fill="none" id="Android App-to-API Gateway" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="317.3411,133.6315,325.7069,128.4341,320.1505,129.4954,319.0891,123.939,317.3411,133.6315" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cf427eabb79519f299c3da453018389c]
+@startuml Derived
+
+title Front-end
+
+[Aplicação WEB]
+[iOs App]
+[Android App]
+[API Gateway]
+
+[iOs App] - ->  [API Gateway]
+[Android App] - -> [API Gateway]
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

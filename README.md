@@ -37,8 +37,8 @@ Neste nível de detalhamento, é demonstrado como o componente de pagamento é i
 
 A Camada de Front-end está demonstrada em uma visão detalhada para entendimento do fluxo:
 
-![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/02-front-end.svg "Front-end")
+![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/01-front-end.svg "Front-end")
 
 No diagrama de sequência abaixo, têm-se a presentação completa deste processo:
 
-![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/03-diagrama-sequencia.svg "Front-end")
+![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/02-diagrama-sequencia.svg "Front-end")
