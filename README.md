@@ -28,12 +28,12 @@ Como solução para a necessidade, o ***CrDigital*** que será composto por um P
 
 Foi escolhido um modelo Frontend e Backend em camadas que simplifica a implementação e evolução, não comprometendo os requisitos não funcionais de usabilidade, disponibilidade, desempenho, confiabilidade e segurança.
 
->Os requisitos não funcionais são detalhados no item [código](#código).
+>Os requisitos não funcionais são detalhados no item [código](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/HOME.md).
 
-# visão arquitetural
-A arquitetura do sistema foi documentada utilizando o modelo C4 de arquitetura por considerar as estruturas estáticas de um sistema de software por um conjunto comum de abstrações distribuídos em termos de contexto, containers, componentes e código de forma a fornecer diferentes níveis de abstração, cada um dos quais com relevância específica.
+# Visão arquitetural
+Por se tratar de um projeto Ágil, a arquitetura do sistema foi documentada utilizando o modelo C4 de arquitetura. Este modelo considera as estruturas estáticas de um sistema de software por um conjunto comum de abstrações distribuídos em termos de contexto, containers, componentes e código de forma a fornecer diferentes níveis de abstração, cada um dos quais com relevância específica.
 
-Níveis de abstração:
+Níveis de abstração apresentados:
 
 *  [01 - Diagrama de contexto](#diagrama-de-contexto)
 *  [02 - Diagrama de container](#diagrama-de-container)
@@ -43,7 +43,7 @@ Níveis de abstração:
 
 ## Diagrama de contexto
 
-O Diagrama de contexto do sistema tem por finalidade demonstrar como estará distribuídos as conexões com o meio exterior (Usuários, Serviços e Integrações), e como ele interage com esse meio. A visão desta abstração está representada pelo diagrama abaixo:
+O Diagrama de contexto do sistema tem por finalidade demonstrar como estará distribuídos as conexões com o meio exterior (Usuários, Serviços e Integrações) e como ele interage com esse meio. A visão desta abstração está representada pelo diagrama abaixo:
 
 ![Diagrama de contexto](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/01-diagrama-contexto/01-diagrama_contexto.svg  "Diagrama de contexto")
 
@@ -55,18 +55,20 @@ O diagrama de container surge a partir de uma ampliação do container do sistem
 O diagrama é composto de cinco containers: uma aplicação de página única do lado do cliente, uma aplicação móvel, uma aplicação Web Front-end, uma aplicação em API Back-end e um banco de dados.
 
 ## Diagrama de componentes
-O diagrama de componentes fornece um detalhamento a partir da ampliação de um container individual visando mostrar os componentes que o compõe. Esses componentes demonstram um mapeamento real das abstrações da base de código. Descreve-se abaixo os componentes dentro API da aplicação:
+O diagrama de componentes fornece um detalhamento a partir da ampliação de um container individual, visando mostrar os componentes que os compõe. Esses componentes demonstram um mapeamento real das abstrações da base de código. Descreve-se abaixo os componentes dentro da API da aplicação:
 
 ![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/03-diagrama-de-componentes/03-diagrama-de-componentes.svg  "Diagrama de componentes")
   
 
 ## Código
-Neste nível de detalhamento, é demonstrado como o componente de pagamento é implementado, mostrando os elementos de código (interfaces e classes) que o compõem:
+Neste nível de detalhamento, é demonstrado como o componente de pagamento é implementado, exibindo os elementos de código que o compõem:
   
-A Camada de Front-end está demonstrada abaixo em uma visão detalhada para entendimento do que foi abstraído mais adiante:
+O Front-end está demonstrado abaixo em uma visão detalhada para entendimento do que foi abstraído mais adiante:
   
 ![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/01-front-end.svg  "Front-end")
   
 No diagrama de sequência abaixo, têm-se a demonstração completa do processo de geração de fatura de pagamento:
 
 ![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/02-diagrama-sequencia.svg  "Front-end")
+
+>Os requisitos não funcionais são detalhados no item [código](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/HOME.md).

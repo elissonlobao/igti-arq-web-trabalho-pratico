@@ -14,7 +14,7 @@ System_Boundary(c1, "CrDigital"){
     Container(SegurancaAS, "SegurancaAS", "Active Service, Java EE", "Serviços de negócio da API")
     Container(SegurancaDB, "SegurancaDB", "Persistence component, Java EE", "Serviços de Persistencia da API")
     Container(PagamentoController, "PagamentoController", "Rest Controller, Java EE", "Integra requisições Rest de pagamento")
-    Container(PagamentoAS, "PagamentoAS", "Rest Controller, Java EE", "Integra requisições Rest de pagamento")
+    Container(PagamentoAS, "PagamentoAS", "Active Service, Java EE", "Serviços de negócio da API")
     Container(PagamentoDB, "PagamentoDB", "Persistence component, Java EE", "Serviços de Persistencia da API")
 }
 
