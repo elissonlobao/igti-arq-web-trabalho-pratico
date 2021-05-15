@@ -28,7 +28,7 @@ Como solução para a necessidade, o ***CrDigital*** que será composto por um P
 
 Foi escolhido um modelo Frontend e Backend em camadas que simplifica a implementação e evolução, não comprometendo os requisitos não funcionais de usabilidade, disponibilidade, desempenho, confiabilidade e segurança.
 
->Os requisitos não funcionais são detalhados no item [código](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/HOME.md).
+>Os requisitos não funcionais são detalhados no item [04 - Código](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/HOME.md).
 
 # Visão arquitetural
 Por se tratar de um projeto Ágil, a arquitetura do sistema foi documentada utilizando o modelo C4 de arquitetura. Este modelo considera as estruturas estáticas de um sistema de software por um conjunto comum de abstrações distribuídos em termos de contexto, containers, componentes e código de forma a fornecer diferentes níveis de abstração, cada um dos quais com relevância específica.
@@ -71,4 +71,4 @@ No diagrama de sequência abaixo, têm-se a demonstração completa do processo 
 
 ![Diagrama de componentes](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/02-diagrama-sequencia.svg  "Front-end")
 
->Os requisitos não funcionais são detalhados no item [código](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/HOME.md).
+>Os requisitos não funcionais são detalhados no item [04 - Código](https://github.com/elissonlobao/igti-arq-web-trabalho-pratico/blob/main/docs/04-codigo/HOME.md).
