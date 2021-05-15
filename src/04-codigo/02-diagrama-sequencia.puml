@@ -3,9 +3,9 @@
     
     Ususário -> Front_end: Acessa
     Front_end -> solicitarPagamentoService: cria solicitação de post
-    solicitarPagamentoService -> PagamentoController: solicita pagamento
-    PagamentoController -> PagamentoAS: gera o pagamento
-    PagamentoAS -> ServiçoPaypal: envia o pagamento
+    solicitarPagamentoService -> PagamentoController: solicita fatura pagamento
+    PagamentoController -> PagamentoAS: gera solicitação fatura
+    PagamentoAS -> ServiçoPaypal: solicita fatura pagamento
     alt success
         PagamentoAS <-- ServiçoPaypal: success
         PagamentoController <-- PagamentoAS: success
