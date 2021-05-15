@@ -4,7 +4,7 @@
 title Diagrama de contexto
 
 Person(persona, "Usuário")
-Container(container, "CrDigital", "Portal WEB e App", "Optional Description")
+Container(container, "CrDigital", "Portal WEB e App")
 System(servidorEmail, "Serviço de e-mail", "Servidor POP3")
 System(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
 
