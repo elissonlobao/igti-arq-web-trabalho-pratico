@@ -1,0 +1,39 @@
+@startuml C4_Elements
+!include shared/C4/C4_Container.puml
+
+title Diagrama de componentes
+
+!define ContainerDb(e_alias, e_label, e_techn) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<container>> as e_alias
+!define ContainerDb(e_alias, e_label, e_techn, e_descr) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<container>> as e_alias
+
+Container(aplicacao, "Aplicação WEB", "Angular com Java", "Front-end - Área restrita")
+Container(appMobile, "App Mobile", "C#, Xamarin", "Aplicativo Mobile")
+
+System_Boundary(c1, "CrDigital"){
+    Container(SegurancaController, "SegurancaController", "Rest Controller, Java EE", "Integra requisições Rest de segurança")
+    Container(SegurancaAS, "SegurancaAS", "Active Service, Java EE", "Serviços de negócio da API")
+    Container(SegurancaDB, "SegurancaDB", "Persistence component, Java EE", "Serviços de Persistencia da API")
+    Container(PagamentoController, "PagamentoController", "Rest Controller, Java EE", "Integra requisições Rest de pagamento")
+    Container(PagamentoAS, "PagamentoAS", "Rest Controller, Java EE", "Integra requisições Rest de pagamento")
+    Container(PagamentoDB, "PagamentoDB", "Persistence component, Java EE", "Serviços de Persistencia da API")
+}
+
+ContainerDb(db1,"Banco de Dados", "Oracle")
+
+System_Ext(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+
+Rel(aplicacao, SegurancaController, "Usa", "JSON, HTTPS")
+Rel(aplicacao, PagamentoController, "Usa", "JSON, HTTPS")
+Rel(appMobile, SegurancaController, "Usa", "JSON, HTTPS")
+Rel(appMobile, PagamentoController, "Usa", "JSON, HTTPS")
+
+Rel(SegurancaController, SegurancaAS, "Usa")
+Rel(PagamentoController, PagamentoAS, "Usa")
+Rel(PagamentoAS, servidorPaypal, "Usa", "HTTPS, Rest")
+Rel(SegurancaAS, SegurancaDB, "Usa")
+Rel(PagamentoAS, PagamentoDB, "Usa")
+
+Rel(SegurancaDB, db1, "Transaciona", "sync, JDBC")
+Rel(PagamentoDB, db1, "Transaciona", "sync, JDBC")
+
+@enduml

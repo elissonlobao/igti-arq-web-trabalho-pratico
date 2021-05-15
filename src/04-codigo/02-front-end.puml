@@ -1,0 +1,12 @@
+@startuml Derived
+
+!include 01-base-system.puml
+
+title Front-end
+
+[API Gateway]
+
+[iOs App] -->  [API Gateway]
+[Android App] --> [API Gateway]
+
+@enduml

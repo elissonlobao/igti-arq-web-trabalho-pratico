@@ -13,18 +13,18 @@ System_Boundary(c1, "CrDigital"){
     Container(pagina, "Aplicação SPA", "Angular", "Portal single-page da cooperativa")
     Container(appMobile, "App Mobile", "C#, Xamarin", "Aplicativo Mobile")
     Container(api, "API da Aplicação", "Java EE", "Back-end")
-    ContainerDb(db1,"Base de Dados", "Oracle")
+    ContainerDb(db1,"Banco de Dados", "Oracle")
 }
 
-System(servidorEmail, "Serviço de e-mail", "Servidor POP3")
-System(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+System_Ext(servidorEmail, "Serviço de e-mail", "Servidor POP3")
+System_Ext(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
 
 Rel(persona, aplicacao, "Usa", "HTTPS")
 Rel(persona, pagina, "Usa", "http")
 Rel(persona, appMobile, "Usa")
 
 Rel(api, servidorEmail, "Solicita envio de e-mail", "SMTP")
-Rel(api, servidorPaypal, "Usa", "Rest")
+Rel(api, servidorPaypal, "Usa", "HTTPS, Rest")
 Rel(servidorEmail, persona, "Envia e-mail")
 
 Rel(pagina, api, "Requisita", "JSON, HTTPS")

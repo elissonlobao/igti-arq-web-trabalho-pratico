@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1187px" preserveAspectRatio="none" style="width:640px;height:1187px;" version="1.1" viewBox="0 0 640 1187" width="640px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="237" x="192.75" y="16.708">Diagrama de componentes</text><!--MD5=[84dda40acb3410cad7262261daba2aaf]
+cluster c1--><rect fill="#FFFFFF" height="821" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="479" x="7" y="195.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="204.5" y="210.9482">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="209.5" y="229.1016">CrDigital</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="215.5" y="244.0137">[System]</text><!--MD5=[aaac735f6af5bfe436876636c039b00f]
+entity SegurancaController--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="214" x="15" y="254.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="85" y="276.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="181" x="31.5" y="293.7734">SegurancaController</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="156" x="44" y="308.6855">[Rest Controller, Java EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="124" y="324.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="25" y="340.8076">Integra requisições Rest de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="85.5" y="357.1045">segurança</text><!--MD5=[9e32cf2e70db2ffeb8c4cee7d08ef89b]
+entity SegurancaAS--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="206" x="20" y="516.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="86" y="538.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="65" y="555.7734">SegurancaAS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="150" x="48" y="570.6855">[Active Service, Java EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="125" y="586.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="30" y="602.8076">Serviços de negócio da API</text><!--MD5=[ebcc46731c2a909ee114a1fb217d18f6]
+entity SegurancaDB--><rect fill="#438DD5" height="129.4219" style="stroke: #3C7FC0; stroke-width: 1.5;" width="213" x="16.5" y="879.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="86" y="901.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="64" y="918.7734">SegurancaDB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="185" x="28.5" y="933.6855">[Persistence component, Java</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="21" x="112.5" y="947.6543">EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="125" y="963.4795"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="26.5" y="979.7764">Serviços de Persistencia da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="112.5" y="996.0732">API</text><!--MD5=[9e4f4d5fcff7a73cd2387c73104203d6]
+entity PagamentoController--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="214" x="264" y="254.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="334" y="276.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="188" x="277" y="293.7734">PagamentoController</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="156" x="293" y="308.6855">[Rest Controller, Java EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="373" y="324.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="274" y="340.8076">Integra requisições Rest de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="331.5" y="357.1045">pagamento</text><!--MD5=[44b065e26fa74fdd7c991b9a4c2313f9]
+entity PagamentoAS--><rect fill="#438DD5" height="115.4531" style="stroke: #3C7FC0; stroke-width: 1.5;" width="214" x="264" y="508.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="334" y="530.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="309.5" y="547.7734">PagamentoAS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="156" x="293" y="562.6855">[Rest Controller, Java EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="373" y="578.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="190" x="274" y="594.8076">Integra requisições Rest de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="331.5" y="611.1045">pagamento</text><!--MD5=[e0abb93d879409e7bc53b012ac124373]
+entity PagamentoDB--><rect fill="#438DD5" height="129.4219" style="stroke: #3C7FC0; stroke-width: 1.5;" width="213" x="264.5" y="879.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="334" y="901.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="308.5" y="918.7734">PagamentoDB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="185" x="276.5" y="933.6855">[Persistence component, Java</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="21" x="360.5" y="947.6543">EE]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="373" y="963.4795"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="274.5" y="979.7764">Serviços de Persistencia da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="360.5" y="996.0732">API</text><!--MD5=[3ed06e009b2366fea5722fd63e290e71]
+entity aplicacao--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="184" x="42" y="27.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="97" y="49.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="70" y="66.7734">Aplicação WEB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="118" x="75" y="81.6855">[Angular com Java]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="136" y="97.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="52" y="113.8076">Front-end - Área restrita</text><!--MD5=[7a930ef5b34af5dbf4a883a2ce699f46]
+entity appMobile--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="133" x="291.5" y="27.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="321" y="49.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="309.5" y="66.7734">App Mobile</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="87" x="314.5" y="81.6855">[C#, Xamarin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="360" y="97.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="301.5" y="113.8076">Aplicativo Mobile</text><!--MD5=[7aa9c583cf047545838c264d3047b712]
+entity db1--><path d="M165.5,1109.9531 C165.5,1099.9531 247,1099.9531 247,1099.9531 C247,1099.9531 328.5,1099.9531 328.5,1109.9531 L328.5,1165.5156 C328.5,1175.5156 247,1175.5156 247,1175.5156 C247,1175.5156 165.5,1175.5156 165.5,1165.5156 L165.5,1109.9531 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M165.5,1109.9531 C165.5,1119.9531 247,1119.9531 247,1119.9531 C247,1119.9531 328.5,1119.9531 328.5,1109.9531 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="210" y="1135.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="175.5" y="1152.7734">Banco de Dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="222.5" y="1167.6855">[Oracle]</text><!--MD5=[5e497a8cf9e3bbea01b47ccf65841b21]
+entity servidorPaypal--><rect fill="#999999" height="103.8125" style="stroke: #8A8A8A; stroke-width: 1.5;" width="135" x="494.5" y="714.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115" x="504.5" y="736.0918">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="512.5" y="753.7734">Serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="507.5" y="772.3984">pagamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="564" y="789.167"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="510" y="805.4639">Servidor PayPal</text><!--MD5=[da94c9b64de6800e0b6733830630533a]
+link aplicacao to SegurancaController--><path d="M71.9166,127.1877 C64.2266,136.2323 57.499,146.2335 53,156.9531 C40.0349,187.8446 52.1061,221.89 69.5722,250.2294 " fill="none" id="aplicacao-to-SegurancaController" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="72.4188,254.7273,70.986,244.9832,69.745,250.5023,64.226,249.2613,72.4188,254.7273" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="83" y="170.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="54" y="184.2246">[JSON, HTTPS]</text><!--MD5=[37a98e4d24053c56feee78f5b3cc0e24]
+link aplicacao to PagamentoController--><path d="M141.0054,127.0587 C146.7277,149.0787 157.1218,173.281 176,187.9531 C200.7244,207.1689 217.5632,182.8423 246,195.9531 C273.7586,208.7512 299.4222,230.1203 320.1802,251.0875 " fill="none" id="aplicacao-to-PagamentoController" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="323.733,254.7206,320.3004,245.4893,320.2372,251.1458,314.5807,251.0826,323.733,254.7206" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="206" y="170.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="177" y="184.2246">[JSON, HTTPS]</text><!--MD5=[dfa909ad8be58306c7db1eb9153ec664]
+link appMobile to SegurancaController--><path d="M323.2565,127.2123 C304.9096,152.2764 283.6366,179.1819 271,187.9531 C261.4163,194.6053 256.054,190.0357 246,195.9531 C220.9565,210.6926 196.849,231.3079 176.6564,251.1064 " fill="none" id="appMobile-to-SegurancaController" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="172.9322,254.7921,182.1428,251.3044,176.486,251.275,176.5154,245.6182,172.9322,254.7921" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="329" y="170.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="300" y="184.2246">[JSON, HTTPS]</text><!--MD5=[001e730056a9c8331dafe8de03baa858]
+link appMobile to PagamentoController--><path d="M387.3048,126.9975 C391.7296,136.6356 395.609,146.8811 398,156.9531 C405.2092,187.321 400.657,221.4514 393.3828,249.9834 " fill="none" id="appMobile-to-PagamentoController" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="392.0948,254.8772,398.2539,247.1918,393.3675,250.0419,390.5175,245.1555,392.0948,254.8772" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="431" y="170.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="402" y="184.2246">[JSON, HTTPS]</text><!--MD5=[bacdfd9cec52844a600b533dfa48610e]
+link SegurancaController to SegurancaAS--><path d="M122.2269,370.0896 C122.3941,412.5662 122.6202,469.9759 122.7846,511.7442 " fill="none" id="SegurancaController-to-SegurancaAS" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="122.8044,516.7583,126.7686,507.7425,122.7845,511.7584,118.7687,507.7743,122.8044,516.7583" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="124" y="444.02">Usa</text><!--MD5=[f71dc86a203d47d17039df29f37e8fe1]
+link PagamentoController to PagamentoAS--><path d="M371,370.0896 C371,409.732 371,462.3813 371,503.1836 " fill="none" id="PagamentoController-to-PagamentoAS" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="371,508.6056,375,499.6056,371,503.6056,367,499.6056,371,508.6056" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="372" y="444.02">Usa</text><!--MD5=[8b3bd5e5d365ace3d50dc5410104f6b4]
+link PagamentoAS to servidorPaypal--><path d="M425.9889,624.177 C451.9336,651.4122 482.7751,683.7877 508.5249,710.8183 " fill="none" id="PagamentoAS-to-servidorPaypal" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="512.2859,714.7664,508.9744,705.491,508.8372,711.1461,503.182,711.0089,512.2859,714.7664" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="512" y="667.02">Usa</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="484" y="681.2246">[HTTPS, Rest]</text><!--MD5=[04e844cd32c2898c67c4d2aae4607b8b]
+link SegurancaAS to SegurancaDB--><path d="M123,616.2587 C123,682.3333 123,799.3395 123,874.3243 " fill="none" id="SegurancaAS-to-SegurancaDB" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="123,879.6493,127,870.6493,123,874.6493,119,870.6493,123,879.6493" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="124" y="771.52">Usa</text><!--MD5=[6fec8ab37aa9b620575381473fbd1fed]
+link PagamentoAS to PagamentoDB--><path d="M371,624.2746 C371,691.5298 371,802.5149 371,874.5485 " fill="none" id="PagamentoAS-to-PagamentoDB" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="371,879.6665,375,870.6665,371,874.6665,367,870.6665,371,879.6665" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="372" y="771.52">Usa</text><!--MD5=[f607c7e5c7e4eb097233d49036560918]
+link SegurancaDB to db1--><path d="M164.4626,1009.1548 C182.6988,1037.6121 203.6073,1070.2395 219.8173,1095.5349 " fill="none" id="SegurancaDB-to-db1" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="222.582,1099.8491,221.0936,1090.1134,219.8841,1095.6394,214.3581,1094.4299,222.582,1099.8491" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="205" y="1052.02">Transaciona</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="211.5" y="1066.2246">[sync, JDBC]</text><!--MD5=[a643ebda49c858ec0ec07a64d4035f3e]
+link PagamentoDB to db1--><path d="M338.2065,1009.2743 C327.3873,1029.1795 314.8226,1050.8599 302,1069.9531 C296.2529,1078.5107 289.6859,1087.3119 283.138,1095.6255 " fill="none" id="PagamentoDB-to-db1" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="279.9289,1099.6644,288.6596,1095.1064,283.0394,1095.7497,282.3961,1090.1296,279.9289,1099.6644" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="322" y="1052.02">Transaciona</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="328.5" y="1066.2246">[sync, JDBC]</text><!--MD5=[bcedd53de1e5b307ee4ab58db61554b1]
+@startuml C4_Elements
+!include shared/C4/C4_Container.puml
+
+title Diagrama de componentes
+
+!define ContainerDb(e_alias, e_label, e_techn) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<container>> as e_alias
+!define ContainerDb(e_alias, e_label, e_techn, e_descr) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<container>> as e_alias
+
+Container(aplicacao, "Aplicação WEB", "Angular com Java", "Front-end - Área restrita")
+Container(appMobile, "App Mobile", "C#, Xamarin", "Aplicativo Mobile")
+
+System_Boundary(c1, "CrDigital"){
+    Container(SegurancaController, "SegurancaController", "Rest Controller, Java EE", "Integra requisições Rest de segurança")
+    Container(SegurancaAS, "SegurancaAS", "Active Service, Java EE", "Serviços de negócio da API")
+    Container(SegurancaDB, "SegurancaDB", "Persistence component, Java EE", "Serviços de Persistencia da API")
+    Container(PagamentoController, "PagamentoController", "Rest Controller, Java EE", "Integra requisições Rest de pagamento")
+    Container(PagamentoAS, "PagamentoAS", "Rest Controller, Java EE", "Integra requisições Rest de pagamento")
+    Container(PagamentoDB, "PagamentoDB", "Persistence component, Java EE", "Serviços de Persistencia da API")
+}
+
+ContainerDb(db1,"Banco de Dados", "Oracle")
+
+System_Ext(servidorPaypal, "Serviço de pagamentos", "Servidor PayPal")
+
+Rel(aplicacao, SegurancaController, "Usa", "JSON, HTTPS")
+Rel(aplicacao, PagamentoController, "Usa", "JSON, HTTPS")
+Rel(appMobile, SegurancaController, "Usa", "JSON, HTTPS")
+Rel(appMobile, PagamentoController, "Usa", "JSON, HTTPS")
+
+Rel(SegurancaController, SegurancaAS, "Usa")
+Rel(PagamentoController, PagamentoAS, "Usa")
+Rel(PagamentoAS, servidorPaypal, "Usa", "HTTPS, Rest")
+Rel(SegurancaAS, SegurancaDB, "Usa")
+Rel(PagamentoAS, PagamentoDB, "Usa")
+
+Rel(SegurancaDB, db1, "Transaciona", "sync, JDBC")
+Rel(PagamentoDB, db1, "Transaciona", "sync, JDBC")
+
+@enduml
+
+@startuml C4_Elements
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+title Diagrama de componentes
+
+
+rectangle "==Aplicação WEB\n//<size:12>[Angular com Java]</size>//\n\n Front-end - Área restrita" <<container>> as aplicacao
+rectangle "==App Mobile\n//<size:12>[C#, Xamarin]</size>//\n\n Aplicativo Mobile" <<container>> as appMobile
+
+rectangle "==CrDigital\n<size:12>[System]</size>" <<boundary>> as c1{
+    rectangle "==SegurancaController\n//<size:12>[Rest Controller, Java EE]</size>//\n\n Integra requisições Rest de segurança" <<container>> as SegurancaController
+    rectangle "==SegurancaAS\n//<size:12>[Active Service, Java EE]</size>//\n\n Serviços de negócio da API" <<container>> as SegurancaAS
+    rectangle "==SegurancaDB\n//<size:12>[Persistence component, Java EE]</size>//\n\n Serviços de Persistencia da API" <<container>> as SegurancaDB
+    rectangle "==PagamentoController\n//<size:12>[Rest Controller, Java EE]</size>//\n\n Integra requisições Rest de pagamento" <<container>> as PagamentoController
+    rectangle "==PagamentoAS\n//<size:12>[Rest Controller, Java EE]</size>//\n\n Integra requisições Rest de pagamento" <<container>> as PagamentoAS
+    rectangle "==PagamentoDB\n//<size:12>[Persistence component, Java EE]</size>//\n\n Serviços de Persistencia da API" <<container>> as PagamentoDB
+}
+
+database "==Banco de Dados\n//<size:12>[Oracle]</size>//" <<container>> as db1
+
+rectangle "==Serviço de pagamentos\n\n Servidor PayPal" <<external_system>> as servidorPaypal
+
+aplicacao - -> SegurancaController : "===Usa\n//<size:12>[JSON, HTTPS]</size>//"
+aplicacao - -> PagamentoController : "===Usa\n//<size:12>[JSON, HTTPS]</size>//"
+appMobile - -> SegurancaController : "===Usa\n//<size:12>[JSON, HTTPS]</size>//"
+appMobile - -> PagamentoController : "===Usa\n//<size:12>[JSON, HTTPS]</size>//"
+
+SegurancaController - -> SegurancaAS : "===Usa"
+PagamentoController - -> PagamentoAS : "===Usa"
+PagamentoAS - -> servidorPaypal : "===Usa\n//<size:12>[HTTPS, Rest]</size>//"
+SegurancaAS - -> SegurancaDB : "===Usa"
+PagamentoAS - -> PagamentoDB : "===Usa"
+
+SegurancaDB - -> db1 : "===Transaciona\n//<size:12>[sync, JDBC]</size>//"
+PagamentoDB - -> db1 : "===Transaciona\n//<size:12>[sync, JDBC]</size>//"
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

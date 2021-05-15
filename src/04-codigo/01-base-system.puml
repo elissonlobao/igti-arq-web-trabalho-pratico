@@ -1,0 +1,7 @@
+@startuml BaseSystem
+
+[Aplicação WEB]
+[iOs App]
+[Android App]
+
+@enduml
